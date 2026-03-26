@@ -250,7 +250,7 @@ def method_not_allowed(error):
 
 if __name__ == '__main__':
     config = Config()
-    config.bind = ["127.0.0.1:8002"]  # Bind to your IP address and port
+    config.bind = ["127.0.0.1:55812"]  # Bind to your IP address and port
 
     # Serve the app using Hypercorn (Daphne server alternative)
     import asyncio
@@ -259,7 +259,7 @@ if __name__ == '__main__':
 # Running the app with Daphne (via hypercorn)
 if __name__ == '__main__':
     config = Config()
-    config.bind = ["127.0.0.1:8002"]  # Bind to your IP address and port
+    config.bind = ["127.0.0.1:55812"]  # Bind to your IP address and port
 
     # Serve the app using Hypercorn (Daphne server alternative)
     import asyncio
